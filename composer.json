@@ -14,5 +14,13 @@
     "psr-4": {
       "app\\code\\Paymentnetwork\\Pnsofortueberweisung\\": ""
     }
+  },
+  "extra": {
+    "map": [
+      [
+        "lib/Sofort",
+        "lib/Sofort"
+      ]
+    ]
   }
 }
