@@ -1,0 +1,18 @@
+{
+  "name": "paymentnetwork/pnsofortueberweisung",
+  "description": "Sofort payment",
+  "type": "magento2-module",
+  "version": "3.1.0",
+  "homepage": "https://www.sofort.com/integrationCenter-ger-DE/integration/shopsysteme/Magento-Community/#14098-sue",
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "app\\code\\Paymentnetwork\\Pnsofortueberweisung\\": ""
+    }
+  }
+}
