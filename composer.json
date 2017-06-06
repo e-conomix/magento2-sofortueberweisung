@@ -12,7 +12,15 @@
       "app/code/Paymentnetwork/Pnsofortueberweisung/registration.php"
     ],
     "psr-4": {
-      "Paymentnetwork\\Pnsofortueberweisung\\": "app/code/"
+      "Paymentnetwork\\Pnsofortueberweisung\\": "app/code"
     }
+  },
+  "extra": {
+    "map": [
+      [
+        "lib/Sofort",
+        "lib/Sofort"
+      ]
+    ]
   }
 }
