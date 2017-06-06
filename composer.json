@@ -12,7 +12,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "app\\code\\Paymentnetwork\\Pnsofortueberweisung\\": ""
+      "Paymentnetwork\\Pnsofortueberweisung\\": "app/code/Paymentnetwork/Pnsofortueberweisung"
     }
   },
   "extra": {
