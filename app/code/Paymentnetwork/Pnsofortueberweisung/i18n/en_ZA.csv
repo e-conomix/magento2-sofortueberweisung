@@ -1,0 +1,81 @@
+Status settings, Status settings
+Extended settings, Extended settings
+"Please set up a project in the merchant menu of SOFORT AG (please make sure to create a 'SOFORT Gateway Project'). In the next step, you just need your configuration key", "Please set up a project in the merchant menu of SOFORT AG (please make sure to create a 'SOFORT Gateway Project'). In the next step, you just need your configuration key"
+Project set-up, Project set-up
+"In order to offer SOFORT Banking, you need a customer account with SOFORT AG. You are not a customer yet? <a href='https://www.sofort.com/payment/users/register/'>Register now!</a>", "In order to offer SOFORT Banking, you need a customer account with SOFORT AG. You are not a customer yet? <a href='https://www.sofort.com/payment/users/register/'>Register now!</a>"
+Registration, Registration
+"Just a few steps are required to use SOFORT Banking:", "Just a few steps are required to use SOFORT Banking:"
+"SOFORT Banking is the direct payment system provided by SOFORT AG. SOFORT Banking allows buyers to make a wire transfer of the respective amount during the order process using their online banking account. You as a merchant will receive a real-time confirmation after the SOFORT Banking transaction has been completed. This enables you to immediately ship goods on stock and digital goods - and the buyer will receive the purchased items faster. Learn more about SOFORT Banking and SOFORT AG at <a href='http://www.sofort.com' target='_blank'>sofort.com</a>", "SOFORT Banking is the direct payment system provided by SOFORT AG. SOFORT Banking allows buyers to make a wire transfer of the respective amount during the order process using their online banking account. You as a merchant will receive a real-time confirmation after the SOFORT Banking transaction has been completed. This enables you to immediately ship goods on stock and digital goods - and the buyer will receive the purchased items faster. Learn more about SOFORT Banking and SOFORT AG at <a href='http://www.sofort.com' target='_blank'>sofort.com</a>"
+"Payment system with data protection certified by TÜV Saarland, "Payment system with data protection certified by TÜV Saarland"
+"No registration required", "No registration required"
+"Stock goods/content can be shipped/activated immediately", "Stock goods/content can be shipped/activated immediately"
+"Please have your online banking details ready</li>", "Please have your online banking details ready"
+"Buyer protection for payment by SOFORT Banking!", "Buyer protection for payment by SOFORT Banking!"
+"More information.", "More information."
+Send receipt emails, Send receipt emails
+Customer protection active, Customer protection active
+SOFORT Banking, SOFORT Banking
+Set-up and configuration, Set-up and configuration
+"Your benefits","Your benefits"
+"About SOFORT Banking","About SOFORT Banking"
+"Only your configuration key will be needed in the next steps.","Only your configuration key will be needed in the next steps."
+"Module configuration","Module configuration"
+"Settings","Settings"
+"Activate the module and enter the configuration key. SOFORT Banking will be immediately available in your checkout. Additional settings are not required.","Activate the module and enter the configuration key. SOFORT Banking will be immediately available in your checkout. Additional settings are not required."
+"Activate SOFORT Banking in your shop","Activate SOFORT Banking in your shop"
+"Use the main website setting","Use the main website setting"
+"Configuration key:","Configuration key:"
+"Adjust the SOFORT Banking module properties here. <a onclick='%s'>(Click to open)</a>","Adjust the SOFORT Banking module properties here. <a onclick='%s'>(Click to open)</a>"
+"Display settings in the checkout","Display settings in the checkout"
+"Sort sequence:","Sort sequence:"
+"Display in the checkout:","Display in the checkout:"
+"Please bear in mind that to offer buyer protection to your customers you will need a SOFORT Bank account and activate the feature buyer protection in your project settings","Please bear in mind that to offer buyer protection to your customers you will need a SOFORT Bank account and activate the feature buyer protection in your project settings"
+"Show only for specific countries:","Show only for specific countries:"
+"Reference settings","Reference settings"
+"Reference:","Reference:"
+"Reference 2:","Reference 2:"
+"The following placeholders are allowed:<br/><ul>
+<li>Order number:  {{orderid}}</li>
+<li>Customer name: {{name}}</li>
+<li>Date: {{date}}</li>
+<li>Shop name: {{shopname}}</li>
+<li>Transaction: {{transaction}}</li></ul>","The following placeholders are allowed:<br/><ul>
+<li>Order number:  {{orderid}}</li>
+<li>Customer name: {{name}}</li>
+<li>Date: {{date}}</li>
+<li>Shop name: {{shopname}}</li>
+<li>Transaction: {{transaction}}</li></ul>"
+"Please adjust these settings only if you are familiar with status handling of Magento, as this may have unpredictable effects on your shop and other modules might no longer work properly. Additional information can be found in our manual.","Please adjust these settings only if you are familiar with status handling of Magento, as this may have unpredictable effects on your shop and other modules might no longer work properly. Additional information can be found in our manual."
+"Temporary order status:","Temporary order status:"
+"Define the status for orders which have not been paid yet.","Define the status for orders which have not been paid yet."
+"Aborted order status:","Aborted order status:"
+"Confirmed order status:","Confirmed order status:"
+"Define the status for orders which have been successfully completed by SOFORT Banking.","Define the status for orders which have been successfully completed by SOFORT Banking."
+"Not create invoice","Not create invoice"
+"(not recommended)","(not recommended)"
+"Not update status","Not update status"
+"Order status for full refunds:","Order status for full refunds:"
+"Define the status for orders which have been prepared for full refunds in the SOFORT AG merchant menu. Bear in mind that refunds usually have to be carried out manually.","Define the status for orders which have been prepared for full refunds in the SOFORT AG merchant menu. Bear in mind that refunds usually have to be carried out manually."
+"Order status for payment receipt:","Order status for payment receipt:"
+"(Define the status of orders for which payment has been received on your SOFORT Bank account. A SOFORT Bank account is required.)","(Define the status of orders for which payment has been received on your SOFORT Bank account. A SOFORT Bank account is required.)"
+"Order status for losses:","Order status for losses:"
+"(Define the status of orders for which no payment or a different amount has been received on your SOFORT Bank account. A SOFORT Bank account is required.)","(Define the status of orders for which no payment or a different amount has been received on your SOFORT Bank account. A SOFORT Bank account is required.)"
+"Internal transaction ID of SOFORT AG: %s (please specify for support requests).","Internal transaction ID of SOFORT AG: %s (please specify for support requests)."
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]","Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]"
+"Payment aborted. Time: %s","Payment aborted. Time: %s"
+"SOFORT Banking has been completed successfully - Transaction ID: [[transaction_id]]. Time: [[date]]","SOFORT Banking has been completed successfully - Transaction ID: [[transaction_id]]. Time: [[date]]"
+"The payment has not been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","The payment has not been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]"
+"The payment has been received on your SOFORT Bank account. Time: [[date]]","The payment has been received on your SOFORT Bank account. Time: [[date]]"
+"An amount differing from the order has been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","An amount differing from the order has been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]"
+"Partial amount will be refunded - [[refunded_amount]]. Time: [[date]]","Partial amount will be refunded - [[refunded_amount]]. Time: [[date]]"
+"Amount will be refunded. Time: [[date]]","Amount will be refunded. Time: [[date]]"
+"Select the time of invoicing","Select the time of invoicing"
+"It is not recommended to change this setting","It is not recommended to change this setting"
+"After finishing the payment","After finishing the payment"
+"The receipt of the money ( can be only detected with an account with SOFORT Bank)","he receipt of the money ( can be only detected with an account with SOFORT Bank)"
+"If the status shouldn't be updated for this event, please choose as status %s","If the status shouldn't be updated for this event, please choose as status %s"
+"Create credit memo automatically","Create credit memo automatically"
+"A credit memo will be created automatically if a transaction was refunded by using the SOFORT panel.","A credit memo will be created automatically if a transaction was refunded by using the SOFORT panel."
+en,en
+"Send order confirmation","Send order confirmation"
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]", "Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]"

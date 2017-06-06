@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <td><?php echo $block->escapeHtml($this->getMethod()->getTitle()) ?></td>
+    </tr>
+    <tr>
+        <td>
+            <?php echo sprintf(
+                __('Internal transaction ID of SOFORT AG: %s (please specify for support requests).'), 
+                $block->getInfo()->getAdditionalInformation('sofort_transaction_id')
+            ); ?>
+        </td>
+    </tr>
+</table>
+<?php echo $block->getChildHtml(); ?>

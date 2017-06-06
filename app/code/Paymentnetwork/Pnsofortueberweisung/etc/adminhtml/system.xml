@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * @category PayIntelligent
+ * @package Paintelligent_Sofort
+ * @copyright Copyright (c) 2014 PayIntelligent GmbH (http://www.payintelligent.de)
+ * @license http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+ */
+ -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="paymentnetwork_pnsofortueberweisung" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>SOFORT Banking</label>
+                <attribute type="expanded">1</attribute>
+                <frontend_model>Magento\Paypal\Block\Adminhtml\System\Config\Fieldset\Group</frontend_model>
+                <field id="over_sofort_heading" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>About SOFORT Banking</label>
+                    <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Heading\Big</frontend_model>
+                </field>
+                <field id="over_sofort_text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label><![CDATA[SOFORT Banking is the direct payment system provided by SOFORT AG. SOFORT Banking allows buyers to make a wire transfer of the respective amount during the order process using their online banking account. You as a merchant will receive a real-time confirmation after the SOFORT Banking transaction has been completed. This enables you to immediately ship goods on stock and digital goods - and the buyer will receive the purchased items faster. Learn more about SOFORT Banking and SOFORT AG at <a href='http://www.sofort.com' target='_blank'>sofort.com</a>]]></label>
+                    <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Label</frontend_model>
+                </field>
+                <field id="configure_sofort_heading" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Set-up and configuration</label>
+                    <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Heading\Middle</frontend_model>
+                </field>
+                <field id="configure_sofort_text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Just a few steps are required to use SOFORT Banking:</label>
+                    <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Label</frontend_model>
+                </field>
+                <field id="sofort_project_heading" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Registration</label>
+                    <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Heading\Italic</frontend_model>
+                </field>
+                <field id="sofort_project_text" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label><![CDATA[In order to offer SOFORT Banking, you need a customer account with SOFORT AG. You are not a customer yet? <a href='https://www.sofort.com/payment/users/register/'>Register now!</a>]]></label>
+                    <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Label</frontend_model>
+                </field>
+                <field id="sofort_register_heading" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Project set-up</label>
+                    <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Heading\Italic</frontend_model>
+                </field>
+                <field id="sofort_register_text" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Please set up a project in the merchant menu of SOFORT AG (please make sure to create a 'SOFORT Gateway Project'). In the next step, you just need your configuration key</label>
+                    <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Label</frontend_model>
+                </field>
+                <group id="pnsofortueberweisung" translate="label" type="text" sortOrder="115" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Module configuration</label>
+                    <comment>Activate the module and enter the configuration key. SOFORT Banking will be immediately available in your checkout. Additional settings are not required.</comment>
+                    <frontend_model>Magento\Paypal\Block\Adminhtml\System\Config\Fieldset\Payment</frontend_model>
+                    <field id="active" translate="label" type="select" sortOrder="120" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Activate SOFORT Banking in your shop</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/paymentnetwork_pnsofortueberweisung/active</config_path>
+                    </field>
+                    <field id="cofiguration_key" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Configuration key:</label>
+                        <config_path>payment/paymentnetwork_pnsofortueberweisung/cofiguration_key</config_path>
+                    </field>
+                    <group id="extended_configuration" translate="label" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="140">
+                        <label>Extended settings</label>
+                        <frontend_model>Magento\Config\Block\System\Config\Form\Fieldset</frontend_model>
+                        <attribute type="expanded">1</attribute>
+                        <group id="display_configuration" translate="label" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="150">
+                            <label>Display settings</label>
+                            <frontend_model>Magento\Config\Block\System\Config\Form\Fieldset</frontend_model>
+                            <attribute type="expanded">1</attribute>
+                            <field id="checkout_presentation" translate="label" type="multiselect" sortOrder="160" showInDefault="1" showInWebsite="1" showInStore="1">
+                                <label>Display in the checkout:</label>
+                                <source_model>Paymentnetwork\Pnsofortueberweisung\Model\Source\Checkout\Presentation</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/checkout_presentation</config_path>
+                            </field>
+                            <field id="customer_protection" translate="label" type="select" sortOrder="170" showInDefault="1" showInWebsite="1" showInStore="1">
+                                <label>Customer protection active</label>
+                                <tooltip>Please bear in mind that to offer buyer protection to your customers you will need a SOFORT Bank account and activate the feature buyer protection in your project settings</tooltip>
+                                <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/customer_protection</config_path>
+                            </field>
+                            <field id="allowspecific" translate="label" type="select" sortOrder="180" showInDefault="1" showInWebsite="1" showInStore="1">
+                                <label>Payment Applicable From</label>
+                                <source_model>Magento\Payment\Model\Config\Source\Allspecificcountries</source_model>
+                                <attribute type="shared">1</attribute>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/allowspecific</config_path>
+                            </field>
+                            <field id="specificcountry" translate="label" type="multiselect" sortOrder="190" showInDefault="1" showInWebsite="1" showInStore="1">
+                                <label>Countries Payment Applicable From</label>
+                                <source_model>Magento\Paypal\Model\System\Config\Source\BuyerCountry</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/specificcountry</config_path>
+                                <depends>
+                                    <field id="allowspecific">1</field>
+                                </depends>
+                            </field>
+                            <field id="sort_order" translate="label" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
+                                <label>Sort sequence:</label>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/sort_order</config_path>
+                            </field>
+                        </group>
+                        <group id="reference_configuration" translate="label" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="200">
+                            <label>Reference settings</label>
+                            <frontend_model>Magento\Config\Block\System\Config\Form\Fieldset</frontend_model>
+                            <attribute type="expanded">1</attribute>
+                            <field id="usage_text_one" translate="label" sortOrder="210" showInDefault="1" showInWebsite="1" showInStore="1">
+                                <label>Reference:</label>
+                                <tooltip><![CDATA[The following placeholders are allowed:<br/><ul>
+            <li>Order number:  {{orderid}}</li>
+            <li>Customer name: {{name}}</li>
+            <li>Date: {{date}}</li>
+            <li>Shop name: {{shopname}}</li>
+            <li>Transaction: {{transaction}}</li></ul>]]></tooltip>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/usage_text_one</config_path>
+                            </field>
+                            <field id="usage_text_two" translate="label" sortOrder="220" showInDefault="1" showInWebsite="1" showInStore="1">
+                                <label>Reference 2:</label>
+                                <tooltip><![CDATA[The following placeholders are allowed:<br/><ul>
+            <li>Order number:  {{orderid}}</li>
+            <li>Customer name: {{name}}</li>
+            <li>Date: {{date}}</li>
+            <li>Shop name: {{shopname}}</li>
+            <li>Transaction: {{transaction}}</li></ul>]]></tooltip>      
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/usage_text_two</config_path>
+                            </field>
+                        </group>
+                        <group id="status_configuration" translate="label" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="230">
+                            <label>Status settings</label>
+                            <frontend_model>Magento\Config\Block\System\Config\Form\Fieldset</frontend_model>
+                            <attribute type="expanded">1</attribute>
+                            <field id="status_config_text_one" translate="label" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="240">
+                                <label>Please adjust these settings only if you are familiar with status handling of Magento, as this may have unpredictable effects on your shop and other modules might no longer work properly. Additional information can be found in our manual.</label>
+                                <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Label\Red</frontend_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/status_config_text_one</config_path>
+                            </field>
+                            <field id="status_config_text_two" translate="label" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="250">
+                                <label>If the status shouldn't be updated for this event, please choose as status %s</label>
+                                <frontend_model>Paymentnetwork\Pnsofortueberweisung\Block\Adminhtml\Payment\Config\Label\Status</frontend_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/status_config_text_two</config_path>
+                            </field>
+                            <field id="order_status" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="260">
+                                <label>Temporary order status:</label>
+                                <tooltip>Define the status for orders which have not been paid yet.</tooltip>
+                                <source_model>Paymentnetwork\Pnsofortueberweisung\Model\Source\Order\Status</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/order_status</config_path>
+                            </field>
+                            <field id="order_status_pending_not_credited_yet" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="270">
+                                <label>Confirmed order status:</label>
+                                <tooltip>Define the status for orders which have been successfully completed by SOFORT Banking.</tooltip>
+                                <source_model>Paymentnetwork\Pnsofortueberweisung\Model\Source\Order\Status</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/order_status_pending_not_credited_yet</config_path>
+                            </field>
+                            <field id="order_status_loss_not_credited" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="280">
+                                <label>Order status for losses:</label>
+                                <tooltip>(Define the status of orders for which no payment or a different amount has been received on your SOFORT Bank account. A SOFORT Bank account is required.)</tooltip>
+                                <source_model>Paymentnetwork\Pnsofortueberweisung\Model\Source\Order\Status</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/order_status_loss_not_credited</config_path>
+                            </field>
+                            <field id="order_status_received_credited" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="290">
+                                <label>Order status for payment receipt:</label>
+                                <tooltip>(Define the status of orders for which payment has been received on your SOFORT Bank account. A SOFORT Bank account is required.)</tooltip>
+                                <source_model>Paymentnetwork\Pnsofortueberweisung\Model\Source\Order\Status</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/order_status_received_credited</config_path>
+                            </field>
+                            <field id="create_invoice" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="290">
+                                <label>Select the time of invoicing</label>
+                                <tooltip>It is not recommended to change this setting</tooltip>
+                                <source_model>Paymentnetwork\Pnsofortueberweisung\Model\Source\Order\Invoice</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/create_invoice</config_path>
+                            </field>
+                            <field id="create_creditmemo" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="300">
+                                <label>Create credit memo automatically</label>
+                                <tooltip>A credit memo will be created automatically if a transaction was refunded by using the SOFORT panel.</tooltip>
+                                <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/create_creditmemo</config_path>
+                            </field>
+                            <field id="send_order_confirmation" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="310">
+                                <label>Send order confirmation</label>
+                                <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/send_order_confirmation</config_path>
+                            </field>
+                            <field id="send_mail" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="320">
+                                <label>Send receipt emails</label>
+                                <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                                <config_path>payment/paymentnetwork_pnsofortueberweisung/send_mail</config_path>
+                            </field>
+                        </group>
+                    </group>
+                </group>
+            </group>
+        </section>
+    </system>
+</config>

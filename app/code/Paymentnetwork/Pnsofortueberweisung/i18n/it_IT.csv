@@ -1,0 +1,81 @@
+Status settings, Impostazioni dello stato
+Extended settings, Impostazioni avanzate
+"Please set up a project in the merchant menu of SOFORT AG (please make sure to create a 'SOFORT Gateway Project'). In the next step, you just need your configuration key", "Imposta un progetto nell'area utenti di SOFORT AG (fate attenzione a creare un 'progetto SOFORT Gateway'). Nel passo successivo occorre solo la chiave di configurazione"
+Project set-up, Creazione di un progetto
+"In order to offer SOFORT Banking, you need a customer account with SOFORT AG. You are not a customer yet? <a href='https://www.sofort.com/payment/users/register/'>Register now!</a>", "Per poter offrire SOFORT Banking le occorre un conto cliente con SOFORT AG. Non sei ancora cliente? <a href='https://www.sofort.com/payment/users/register/'>Registrati ora!</a>"
+Registration, Registrazione
+"Just a few steps are required to use SOFORT Banking:", "Per poter utilizzare SOFORT Banking sono necessari alcuni passi:"
+"SOFORT Banking is the direct payment system provided by SOFORT AG. SOFORT Banking allows buyers to make a wire transfer of the respective amount during the order process using their online banking account. You as a merchant will receive a real-time confirmation after the SOFORT Banking transaction has been completed. This enables you to immediately ship goods on stock and digital goods - and the buyer will receive the purchased items faster. Learn more about SOFORT Banking and SOFORT AG at <a href='http://www.sofort.com' target='_blank'>sofort.com</a>", "SOFORT Banking è il procedimento di bonifico diretto di SOFORT AG. Con SOFORT Banking gli acquirenti impostano comodamente un bonifico per il relativo importo nel loro conto di home banking ancora durante l'ordine. A conclusione del bonifico, Lei come commerciante riceve la conferma in tempo reale. In tal modo può inviare subito la merce in deposito e i beni digitali - e il cliente riceve gli acquisti più velocemente. Maggiori informazioni relative a SOFORT Banking e SOFORT AG su <a href='http://www.sofort.com' target='_blank'>sofort.com</a>"
+"Payment system with data protection certified by TÜV Saarland", "Sistema di pagamento con protezione dati verificata da TÜV Saarland (ente tedesco di certificazione)"
+"No registration required", "Senza alcuna registrazione"
+"Stock goods/content can be shipped/activated immediately", "Merci e beni digitali , quando disponibili, possono essere inviati/attivati immediatamente"
+"Please have your online banking details ready", "Tieni pronti i tuoi dati di home banking (dati d'accesso/password dispositiva)"
+"Buyer protection for payment by SOFORT Banking!", "Pagando con SOFORT Banking gode della protezione acquirenti!"
+"More information.", "Ulteriori informazioni."
+Send receipt emails, Invia e-mail di ricevuta
+Customer protection active, Attiva protezione acquirenti
+SOFORT Banking, SOFORT Banking
+Set-up and configuration, Creazione e configurazione
+Your benefits,Az Ön előnyei:
+About SOFORT Banking,A SOFORT Bankingről
+Only your configuration key will be needed in the next steps.,A következő lepésnél csupán a konfigurációs kulcsrára van szüksége.
+Module configuration,Modellkonfiguració
+Settings,Alapbeállítások
+Activate the module and enter the configuration key. SOFORT Banking will be immediately available in your checkout. Additional settings are not required.,Egyszerűen aktiválja a modult és adja meg a konfigurációs kulcsot. A SOFORT Banking azonnal rendelkezésére áll a Checkout-jában. További beállításokra nincs szükség.
+Activate SOFORT Banking in your shop,Aktiválja a SOFORT Bankinget a webáruházában
+Use the main website setting,Használja a Main Website (Fő weboldal) beállítását
+Configuration key:,Konfigurációs kulcs:
+Adjust the SOFORT Banking module properties here. <a onclick='%s'>(Click to open)</a>,Itt állíthatja be a SOFORT Banking moduljának a vislekedését. <a onclick='%s'>(Kattintson a megnyitáshoz)</a>
+Display settings in the checkout,A megjelenítés beállítása a Checkout-ban.
+Sort sequence:,A megjelenítés sorrendje:
+Display in the checkout:,Megjelenítés a Checkout-ban:
+Please bear in mind that to offer buyer protection to your customers you will need a SOFORT Bank account and activate the feature buyer protection in your project settings,"Kérjük, vegye figyelembe, hogy a vásárlónak nyújtandó vásárlóvédelem érdekében rendelkeznie kell SOFORT Bank bankszámlával, valamint a vásárlóvédelmet aktiválnia kell a projektbeállításoknál."
+Show only for specific countries:,Megjelenítés csak bizonyos országoknál:
+Reference settings,A közlemény beállításai
+Reference:,Közlemény:
+Reference 2:,Közlemény 2:
+"The following placeholders are allowed:<br/><ul>
+<li>Order number:  {{orderid}}</li>
+<li>Customer name: {{name}}</li>
+<li>Date: {{date}}</li>
+<li>Shop name: {{shopname}}</li>
+<li>Transaction: {{transaction}}</li></ul>","<ul>
+<li>Número de pedido: {{orderid}}</li>
+<li>Cliente: {{name}}</li>
+<li>Fecha de facturación: {{date}}</li>
+<li>Tienda: {{shopname}}</li>
+<li>Transacción: {{transaction}}</li></ul>"
+"Please adjust these settings only if you are familiar with status handling of Magento, as this may have unpredictable effects on your shop and other modules might no longer work properly. Additional information can be found in our manual.","Kérjük, csak akkor változtasson ezen a beállításon, ha ismeri a Magento státuszkezelését, mivel ez előre nem látható következményekkel járhat a webáruházára nézve, valamint más modulok esetlegesen nem működnek majd megfelelően. További felvilágosítást kézikönyvünkben talál."
+Temporary order status:,Ideiglenes megrendelési státusz:
+Define the status for orders which have not been paid yet.,"(Definiálja azon megrendelések státuszát, melyek még nem kerültek kifizetésre.)"
+Aborted order status:,Megszakított megrendelési státusz:
+Confirmed order status:,Visszaigazolt megrendelési státusz:
+Define the status for orders which have been successfully completed by SOFORT Banking.,"(Definiálja azon megrendelések státuszát, melyek SOFORT Bankinggel eredményesen lezárultak.)"
+Not create invoice,Ne állítson ki számlát
+(not recommended),(nem ajánlott)
+Not update status,Ne hajtson végre státuszaktualizálást
+Order status for full refunds:,Megrendelési státusz a teljes megtérítés érdekében:
+Define the status for orders which have been prepared for full refunds in the SOFORT AG merchant menu. Bear in mind that refunds usually have to be carried out manually.,"Definiálja azon megrendelések státuszát, melyek a felhasználói felületen teljes egészében stornóra kerültek előjegyzésre. Vegye figyelembe, hogy a stornókat általában saját kezűleg kell végrehajtani."
+Order status for payment receipt:,Megrendelési státusz a fizetés beérkezéséhez:
+(Define the status of orders for which payment has been received on your SOFORT Bank account. A SOFORT Bank account is required.),"(Definiálja azon megrendelések státuszát, melyekkel kapcsolatban SOFORT Bank bankszámláján fizetés tapasztalható. SOFORT Bank bankszámla szükséges.)"
+Order status for losses:,Megrendelési státusz nemfizetésekhez:
+(Define the status of orders for which no payment or a different amount has been received on your SOFORT Bank account. A SOFORT Bank account is required.),"(Definiálja azon megrendelések státuszát, melyeknél nem tapasztalható fizetés vagy eltérő összeg érkezett a SOFORT Bank bankszámlájára. SOFORT Bank bankszámla szükséges.)"
+Internal transaction ID of SOFORT AG: %s (please specify for support requests).,"A SOFORT AG belső tranzakciós azonosítója: %s (kérjük, adja meg, ha megkeresi az ügyfélszolgálatot)."
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]","Továbbítás a SOFORT Bankinghez. A fizetés még nincs lezárva. Tranzakciós azonosító: [[transaction_id]]. Idő: [[date]] óra"
+"Payment aborted. Time: %s","A fizetés megszakítva. Idő %s óra"
+"SOFORT Banking has been completed successfully - Transaction ID: [[transaction_id]]. Time: [[date]]","A SOFORT Banking sikeresen lezárva - Tranzakciós azonosító: [[transaction_id]]. Idő: [[date]] óra"
+"The payment has not been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","A kifizetés nem érkezett meg a SOFORT Bank bankszámlára. Kérjük, ellenőrizze a fizetést. Idő: [[date]] óra"
+"The payment has been received on your SOFORT Bank account. Time: [[date]]","Az összeg beérkezett a SOFORT Bank bankszámlára, idő: [[date]] óra"
+"An amount differing from the order has been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","A megrendeléstől eltérő összeg érkezett a SOFORT Bank bankszámlára. Kérjük, ellenőrizze a fizetést. Idő: [[date]] óra"
+"Partial amount will be refunded - [[refunded_amount]]. Time: [[date]]","Részösszeg megtérítve - [[refunded_amount]]. Idő: [[date]] óra"
+"Amount will be refunded. Time: [[date]]","Összeg megtérítve. Idő: [[date]] óra"
+Select the time of invoicing,Selezioni il momento della fatturazione:
+It is not recommended to change this setting,(non è consigliabile modificare questa impostazione)
+After finishing the payment,A pagamento terminato
+The receipt of the money ( can be only detected with an account with SOFORT Bank),A ricezione dell'importo (può essere accertato solo con un conto con SOFORT Bank)
+"If the status shouldn't be updated for this event, please choose as status %s","Se lo stato di questo evento non deve essere attualizzato, selezioni lo stato %s"
+Create credit memo automatically,Crei l'accredito automaticamente
+A credit memo will be created automatically if a transaction was refunded by using the SOFORT panel.,Viene creato automaticamente un accredito se una transazione è stata rimborsata nel sistema SOFORT.
+en,it
+"Send order confirmation","Invia conferma d'ordine"
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]", "Inoltro a SOFORT Banking. Pagamento non ancora terminato. ID transazione: [[transaction_id]]. Data e ora: [[date]]"

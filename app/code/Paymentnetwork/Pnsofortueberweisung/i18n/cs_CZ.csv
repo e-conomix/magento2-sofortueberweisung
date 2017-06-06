@@ -1,0 +1,81 @@
+Status settings, Nastavení stavu
+Extended settings, Pokročilé nastavení
+"Please set up a project in the merchant menu of SOFORT AG (please make sure to create a 'SOFORT Gateway Project'). In the next step, you just need your configuration key", "Založte si prosím v menu pro prodejce společnosti SOFORT AG projekt (Dbejte přitom na to, abyste založili  'SOFORT Gateway projekt').  V dalším úkonu potřebujete pouze svůj konfigurační klíč"
+Project set-up, Zřízení projektu
+"In order to offer SOFORT Banking, you need a customer account with SOFORT AG. You are not a customer yet? <a href='https://www.sofort.com/payment/users/register/'>Register now!</a>", "Abyste mohli nabídnout SOFORT Banking, potřebujete zákaznický účet u společnosti SOFORT AG. Nejste ještě zákazníkem? <a href='https://www.sofort.com/payment/users/register/'>Registrujte se nyní!</a>"
+Registration, Registrace
+"Just a few steps are required to use SOFORT Banking:", "Abyste mohli používat SOFORT Banking, je nutno provést jen několik úkonů:"
+"SOFORT Banking is the direct payment system provided by SOFORT AG. SOFORT Banking allows buyers to make a wire transfer of the respective amount during the order process using their online banking account. You as a merchant will receive a real-time confirmation after the SOFORT Banking transaction has been completed. This enables you to immediately ship goods on stock and digital goods - and the buyer will receive the purchased items faster. Learn more about SOFORT Banking and SOFORT AG at <a href='http://www.sofort.com' target='_blank'>sofort.com</a>", "SOFORT Banking je způsob platby příkazem k úhradě společnosti SOFORT AG. Přes SOFORT Banking nastavují kupující ještě během objednávání převod příslušné částky pohodlně na svůj účet internetového bankovnictví. Vy jako obchodník dostanete po ukončení převodu přes SOFORT Banking potvrzení v reálném čase. Můžete tak okamžitě zaslat zboží skladem a digitální zboží – a kupující obdrží své nákupy rychleji. Více o SOFORT Banking a společnosti SOFORT AG na <a href='http://www.sofort.com' target='_blank'>sofort.com</a>"
+"Payment system with data protection certified by TÜV Saarland", "Platební systém certifikovaný TÜV Saarland s ověřenou ochranou osobních údajů"
+"No registration required", "Není nutná žádná registrace"
+"Stock goods/content can be shipped/activated immediately", "Pokud je zboží / digitální obsah k dispozici, může být zaslán / aktivován okamžite"
+"Please have your online banking details ready", "Připravte si údaje pro své internetové bankovnictví (přihlašovací a autorizační údaje)"
+"Buyer protection for payment by SOFORT Banking!", "Při platbě pomocí SOFORT Banking využíváte ochrany kupujícího!"
+"More information.",  "Více informací."
+Send receipt emails, Odeslat dokladové e-maily
+Customer protection active, Aktivovat ochranu kupujícího
+SOFORT Banking, SOFORT Banking
+Set-up and configuration, Zriadenie a konfigurácia
+Your benefits,Vaše výhody:
+About SOFORT Banking,Co je SOFORT Banking
+Only your configuration key will be needed in the next steps.,V následujícím kroku potřebujete pouze svůj konfigurační klíč.
+Module configuration,Konfigurace modulu
+Settings,Základní nastavení
+Activate the module and enter the configuration key. SOFORT Banking will be immediately available in your checkout. Additional settings are not required.,Aktivujte jednoduše modul a zadejte konfigurační klíč. SOFORT Banking je tak okamžitě k dispozici ve Vašich možnostech platby. Další nastavení nejsou nutná.
+Activate SOFORT Banking in your shop,Aktivujte SOFORT Banking ve svém e-shopu
+Use the main website setting,Použít nastavení hlavní webové stránky
+Configuration key:,Konfigurační klíč:
+Adjust the SOFORT Banking module properties here. <a onclick='%s'>(Click to open)</a>,Upravte zde chování modulu SOFORT Banking. <a onclick='%s'>(Klepněte sem pro otevření)</a>
+Display settings in the checkout,Nastavení zobrazení v možnostech platby
+Sort sequence:,Pořadí zobrazení:
+Display in the checkout:,Zobrazení v možnostech platby:
+Please bear in mind that to offer buyer protection to your customers you will need a SOFORT Bank account and activate the feature buyer protection in your project settings,"Upozorňujeme na to, že potřebujete účet od SOFORT Bank a že musí být aktivována ochrana kupujícího ve Vašich nastaveních projektu, abyste mohli svým zákazníkům nabídnout ochranu kupujícímu."
+Show only for specific countries:,Zobrazit pouze pro určité země:
+Reference settings,Nastavení informací pro příjemce
+Reference:,Informace pro příjemce:
+Reference 2:,Informace pro příjemce 2:
+"The following placeholders are allowed:<br/><ul>
+<li>Order number:  {{orderid}}</li>
+<li>Customer name: {{name}}</li>
+<li>Date: {{date}}</li>
+<li>Shop name: {{shopname}}</li>
+<li>Transaction: {{transaction}}</li></ul>","Následující zástupní symboly jsou povoleny:<br/><ul>
+<li>Číslo objednávky:  {{orderid}}</li>
+<li>Jméno zákazníka: {{name}}</li>
+<li>Datum: {{date}}</li>
+<li>Název e-shopu: {{shopname}}</li>
+<li>Transakce: {{transaction}}</li></ul>"
+"Please adjust these settings only if you are familiar with status handling of Magento, as this may have unpredictable effects on your shop and other modules might no longer work properly. Additional information can be found in our manual.","Proveďte na těchto nastaveních pouze úpravy, pokud jste obeznámeni se zacházením s Magento, protože by to mohlo mít nepředvídatelné důsledky na Váš e-shop a kromě toho by jiné moduly možná nefungovaly. Další informace najdete v naší příručce:"
+Temporary order status:,Dočasný stav objednávky:
+Define the status for orders which have not been paid yet.,"(Definujte stav pro objednávky, které ještě nebyly zaplaceny.)"
+Aborted order status:,Přerušený stav objednávky:
+Confirmed order status:,Potvrzený stav objednávky:
+Define the status for orders which have been successfully completed by SOFORT Banking.,"(Definujte stav pro objednávky, které byly přes SOFORT Banking úspěšně uzavřeny.)"
+Not create invoice,Nevyhotovit žádnou fakturu
+(not recommended),(není doporučeno)
+Not update status,Neprovádět žádnou aktualizaci stavu
+Order status for full refunds:,Stav objednávky pro úplné refundace:
+Define the status for orders which have been prepared for full refunds in the SOFORT AG merchant menu. Bear in mind that refunds usually have to be carried out manually.,"Definujte stav pro objednávky, které byly kompletně vyznačeny pro vrácení platby v menu pro prodejce SOFORT AG. Upozorňujeme na to, že vrácení platby tam zpravidla musí být provedeny manuálně.)"
+Order status for payment receipt:,Stav objednávky pro příjem peněz:
+(Define the status of orders for which payment has been received on your SOFORT Bank account. A SOFORT Bank account is required.),"(Definujte stav pro objednávky, pro které byl zjištěn příjem peněz na Vašem bankovním účtu SOFORT. Je zapotřebí účet od SOFORT Bank.)"
+Order status for losses:,Stav objednávky pro výpadky plateb:
+(Define the status of orders for which no payment or a different amount has been received on your SOFORT Bank account. A SOFORT Bank account is required.),"(Definujte stav pro objednávky, pro které nebyl zjištěn žádný příjem peněz na Vašem bankovním účtu SOFORT nebo částka proplacená na Váš účet je odlišná. Je zapotřebí účet od SOFORT Bank.)"
+Internal transaction ID of SOFORT AG: %s (please specify for support requests).,Interní ID transakce od SOFORT AG: %s (prosím uveďte při dotazech na zákaznickou podporu).
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]","Přesměrování na SOFORT Banking. Platba ještě nebyla uzavřena. ID transakce: [[transaction_id]]. Čas: [[date]] hod"
+"Payment aborted. Time: %s","Platba přerušena. Čas: %s hod"
+"SOFORT Banking has been completed successfully - Transaction ID: [[transaction_id]]. Time: [[date]]","Převod přes SOFORT Banking byl úspěšně uzavřen – ID transakce: [[transaction_id]]. Čas: [[date]] hod"
+"The payment has not been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","Nebylo možné zjistit příjem peněz na účtu SOFORT Bank. Zkontrolujte prosím platbu. Čas: [[date]] hod"
+"The payment has been received on your SOFORT Bank account. Time: [[date]]","Částka byla přijata na účet SOFORT Bank. Čas: [[date]] hod"
+"An amount differing from the order has been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","Na účtu SOFORT Bank byla zjištěna částka odlišná od objednávky. Zkontrolujte prosím platbu. Čas: [[date]] hod"
+"Partial amount will be refunded - [[refunded_amount]]. Time: [[date]]","Částečná částka bude uhrazena - [[refunded_amount]]. Čas: [[date]] hod"
+"Amount will be refunded. Time: [[date]]","Částka bude uhrazena. Čas: [[date]] hod"
+Select the time of invoicing,Zvolte dobu vystavení faktury:
+It is not recommended to change this setting,(Toto nastavení se nedoporučuje měnit)
+After finishing the payment,Po uzavření platby
+The receipt of the money ( can be only detected with an account with SOFORT Bank),Při obdržení peněz (je možné zjistit pouze s účtem od SOFORT Bank)
+"If the status shouldn't be updated for this event, please choose as status %s","Pokud nemá být pro tuto akci provedena žádná aktualizace stavu, zvolte jako stav %s"
+Create credit memo automatically,Vyhotovit automaticky dobropis
+A credit memo will be created automatically if a transaction was refunded by using the SOFORT panel.,Automaticky se vyhotoví dobropis, pokud byla transakce v systému SOFORT odepsána.
+en,cz
+"Send order confirmation","Odeslat potvrzení objednávky"
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]", "Přesměrování na SOFORT Banking. Platba ještě nebyla uzavřena. ID transakce: [[transaction_id]]. Čas: [[date]] hod"

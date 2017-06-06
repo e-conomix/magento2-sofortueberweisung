@@ -1,0 +1,81 @@
+Status settings, Statuseinstellungen
+Extended settings, Erweiterte Einstellungen 
+"Please set up a project in the merchant menu of SOFORT AG (please make sure to create a 'SOFORT Gateway Project'). In the next step, you just need your configuration key", "Bitte richten Sie im Anbietermenü der SOFORT AG ein Projekt ein (Bitte achten Sie darauf ein 'SOFORT Gateway-Projekt' anzulegen). Sie benötigen im nächsten Schritt lediglich Ihren Konfigurationsschlüssel"
+Project set-up, Einrichtung eines Projekts 
+"In order to offer SOFORT Banking, you need a customer account with SOFORT AG. You are not a customer yet? <a href='https://www.sofort.com/payment/users/register/'>Register now!</a>", "Um SOFORT Überweisung anbieten zu können benötigen Sie einen Kundenaccount bei SOFORT AG. Sie sind noch kein Kunde? <a href='https://www.sofort.com/payment/users/register/'>Registrieren Sie sich jetzt!</a>"
+Registration, Registrierung
+"Just a few steps are required to use SOFORT Banking:", "Um SOFORT Überweisung nutzen zu können sind einige Schritte notwendig:"
+"SOFORT Banking is the direct payment system provided by SOFORT AG. SOFORT Banking allows buyers to make a wire transfer of the respective amount during the order process using their online banking account. You as a merchant will receive a real-time confirmation after the SOFORT Banking transaction has been completed. This enables you to immediately ship goods on stock and digital goods - and the buyer will receive the purchased items faster. Learn more about SOFORT Banking and SOFORT AG at <a href='http://www.sofort.com' target='_blank'>sofort.com</a>", "Sofort Überweisung ist das Direkt Überweisungsverfahren der SOFORT AG. Mit SOFORT Überweisung stellen Käufer noch während Ihrer Bestellung bequem eine Überweisung über den jeweiligen Betrag in Ihr Online-Banking-Konto ein. Sie als Händler erhalten nach Abschluss der SOFORT Überweisung eine Echtzeitbestätigung. So können Sie Lagerware und digitale Güter sofort versenden - und der Käufer erhält seine Einkäufe schneller. Mehr zu SOFORT Überweisung und der SOFORT AG auf <a href='http://www.sofort.com' target='_blank'>sofort.com</a>"
+"Payment system with data protection certified by TÜV Saarland", "Vom TÜV Saarland zertifiziertes Zahlungssystem mit geprüftem Datenschutz"
+"No registration required", "Keine Registrierung notwendig"
+"Stock goods/content can be shipped/activated immediately", "Ware/Content kann bei Verfügbarkeit SOFORT versendet/freigeschaltet werden"
+"Please have your online banking details ready", "Bitte halten Sie Ihre Online-Banking-Daten (PIN/TAN) bereit"
+"Buyer protection for payment by SOFORT Banking!", "Bei Bezahlung mit SOFORT Überweisung genießen Sie Käuferschutz!"
+"More information.",  "Mehr Informationen."
+Send receipt emails, Beleg E-Mails senden
+Customer protection active, Käuferschutz aktivieren
+SOFORT Banking, SOFORT Überweisung
+Set-up and configuration, Einrichtung und Konfiguration
+Your benefits,Ihre Vorteile:
+About SOFORT Banking,Über SOFORT Überweisung
+Only your configuration key will be needed in the next steps.,Sie benötigen im nächsten Schritt lediglich Ihren Konfigurationsschlüssel.
+Module configuration,Modulkonfiguration
+Settings,Basiseinstellungen
+Activate the module and enter the configuration key. SOFORT Banking will be immediately available in your checkout. Additional settings are not required.,Einfach das Modul aktivieren und Konfigurationsschlüssel eintragen. SOFORT Überweisung ist damit sofort in Ihrem Checkout verfügbar. Weitere Einstellungen sind nicht notwendig.
+Activate SOFORT Banking in your shop,Aktivieren Sie SOFORT Überweisung in Ihrem Shop
+Use the main website setting,Main Website-Einstellung verwenden
+Configuration key:,Konfigurationsschlüssel:
+Adjust the SOFORT Banking module properties here. <a onclick='%s'>(Click to open)</a>,Passen Sie hier das Verhalten des SOFORT Überweisungs-Moduls an. <a onclick='%s'>(Klicken um zu öffnen)</a>
+Display settings in the checkout,Anzeigeeinstellungen im Checkout
+Sort sequence:,Anzeigereihenfolge:
+Display in the checkout:,Darstellung im Checkout:
+Please bear in mind that to offer buyer protection to your customers you will need a SOFORT Bank account and activate the feature buyer protection in your project settings,"Bitte beachten Sie, dass Sie ein SOFORT Bank-Konto benötigen und der Käuferschutz in Ihren Projekteinstellungen aktiviert sein muss um Ihren Kunden den Käuferschutz anzubieten."
+Show only for specific countries:,Nur für bestimmte Ländern anzeigen:
+Reference settings,Verwendungszweckeinstellungen
+Reference:,Verwendungszweck:
+Reference 2:,Verwendungszweck 2:
+"The following placeholders are allowed:<br/><ul>
+<li>Order number:  {{orderid}}</li>
+<li>Customer name: {{name}}</li>
+<li>Date: {{date}}</li>
+<li>Shop name: {{shopname}}</li>
+<li>Transaction: {{transaction}}</li></ul>","Folgende Platzhalter sind erlaubt:<br/><ul>
+<li>Bestellnummer:  {{orderid}}</li>
+<li>Kundenname: {{name}}</li>
+<li>Datum: {{date}}</li>
+<li>Shopname: {{shopname}}</li>
+<li>Transaction: {{transaction}}</li></ul>"
+"Please adjust these settings only if you are familiar with status handling of Magento, as this may have unpredictable effects on your shop and other modules might no longer work properly. Additional information can be found in our manual.","Bitte nehmen Sie nur Anpassungen an diesen Einstellungen vor, wenn Sie mit der Statusbehandlung von Magento vertraut sind, da dies unvorhersehbare Auswirkungen auf Ihren Shop haben kann und andere Module möglicherweiße nicht mehr ordnungsgemäß funktionieren. Weitere Informationen finden Sie in unserem Handbuch."
+Temporary order status:,Temporärer Bestellstatus:
+Define the status for orders which have not been paid yet.,"(Definieren Sie den Status für Bestellungen, die noch nicht bezahlt wurden.)"
+Aborted order status:,Abgebrochener Bestellstatus:
+Confirmed order status:,Bestätigter Bestellstatus:
+Define the status for orders which have been successfully completed by SOFORT Banking.,"(Definieren Sie den Status für Bestellungen, die mit SOFORT Überweisungen erfolgreich abgeschlossen wurden.)"
+Not create invoice,Keine Rechnung erstellen
+(not recommended),(nicht empfohlen)
+Not update status,Keine Statusaktualisierung durchführen
+Order status for full refunds:,Bestellstatus für vollständige Erstattungen:
+Define the status for orders which have been prepared for full refunds in the SOFORT AG merchant menu. Bear in mind that refunds usually have to be carried out manually.,"Definieren Sie den Status für Bestellungen, die vollständig im Anbietermenü der SOFORT AG zur Rückbuchung vorgemerkt wurden. Beachten Sie, dass Rückbuchungen i.d.R. dort manuell zur Ausführung gebracht werden müssen.)"
+Order status for payment receipt:,Bestellstatus für Geldeingang:
+(Define the status of orders for which payment has been received on your SOFORT Bank account. A SOFORT Bank account is required.),"(Definieren Sie den Status für Bestellungen, für die ein Geldeingang auf Ihrem SOFORT Bank-Konto festgestellt wurde. Benötigt ein SOFORT Bank-Konto.)"
+Order status for losses:,Bestellstatus für Zahlungsausfälle:
+(Define the status of orders for which no payment or a different amount has been received on your SOFORT Bank account. A SOFORT Bank account is required.),"(Definieren Sie den Status für Bestellungen, für die kein Geldeingang festgestellt wurde oder ein abweichender Betrag auf Ihrem SOFORT Bank-Konto eingegangen ist. Benötigt ein SOFORT Bank-Konto.)"
+Internal transaction ID of SOFORT AG: %s (please specify for support requests).,Interne Transaktions-ID von SOFORT AG: %s (bitte angeben bei Support-Anfragen).
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]","Weiterleitung zu SOFORT Überweisung. Zahlung noch nicht abgeschlossen. Transaktions-ID: [[transaction_id]]. Zeit: [[date]] Uhr"
+"Payment aborted. Time: %s","Bezahlung abgebrochen. Zeit: %s Uhr"
+"SOFORT Banking has been completed successfully - Transaction ID: [[transaction_id]]. Time: [[date]]","SOFORT Überweisung erfolgreich abgeschlossen - Transaktions-ID: [[transaction_id]]. Zeit: [[date]] Uhr"
+"The payment has not been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","Es konnte kein Geldeingang auf dem SOFORT Bank-Konto festgestellt werden. Bitte überprüfen Sie die Bezahlung. Zeit: [[date]] Uhr"
+"The payment has been received on your SOFORT Bank account. Time: [[date]]","Betrag ist auf dem SOFORT Bank-Konto eingegangen Zeit: [[date]] Uhr"
+"An amount differing from the order has been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","Es wurde ein von der Bestellung abweichender Betrag auf dem SOFORT Bank-Konto festgestellt. Bitte überprüfen Sie die Bezahlung. Zeit: [[date]] Uhr"
+"Partial amount will be refunded - [[refunded_amount]]. Time: [[date]]","Teilbetrag wird erstattet - [[refunded_amount]]. Zeit: [[date]] Uhr"
+"Amount will be refunded. Time: [[date]]","Betrag wird erstattet. Zeit: [[date]] Uhr"
+Select the time of invoicing,Wählen Sie den Zeitpunkt der Rechnungserstellung:
+It is not recommended to change this setting,(Es wird nicht empfohlen diese Einstellung zu verändern)
+After finishing the payment,Nach Abschluss der Zahlung
+The receipt of the money ( can be only detected with an account with SOFORT Bank),Bei Erhalt des Geldes (kann nur mit SOFORT Bank-Konto festgestellt werden)
+"If the status shouldn't be updated for this event, please choose as status %s","Wenn keine Statusaktualisierung für dieses Event durchgeführt werden soll, wählen Sie als Status %s"
+Create credit memo automatically,Gutschrift automatisch erstellen
+A credit memo will be created automatically if a transaction was refunded by using the SOFORT panel.,"Es wird automatisch eine Gutschrift  erstellt, wenn einer Transaktion im SOFORT System zurückgebucht wurde."
+en,de
+"Send order confirmation","Bestellbestätigung senden"
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]", "Weiterleitung zu SOFORT Überweisung. Zahlung noch nicht abgeschlossen. Transaktions-ID: [[transaction_id]]. Zeit: [[date]] Uhr"

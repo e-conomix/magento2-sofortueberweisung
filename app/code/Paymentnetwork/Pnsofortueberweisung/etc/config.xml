@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Magento
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@magentocommerce.com so we can send you a copy immediately.
+*
+* @category PayIntelligent
+* @package Paintelligent_Sofort
+* @copyright Copyright (c) 2014 PayIntelligent GmbH (http://www.payintelligent.de)
+* @license http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+*/
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <paymentnetwork_pnsofortueberweisung>
+                <active>0</active>
+                <model>Paymentnetwork\Pnsofortueberweisung\Model\Method\Sofort</model>
+                <title>SOFORT Banking</title>
+                <usage_text_one>{{orderid}}</usage_text_one>
+                <usage_text_two>{{transaction}}</usage_text_two>
+                <payment_action>initialize</payment_action>
+                <order_status>pending</order_status>
+                <order_status_pending_not_credited_yet>processing</order_status_pending_not_credited_yet>
+                <order_status_loss_not_credited>payment_review</order_status_loss_not_credited>
+                <order_status_received_credited>processing</order_status_received_credited>
+                <create_creditmemo>0</create_creditmemo>
+                <create_invoice>after_order</create_invoice>
+                <send_order_confirmation>1</send_order_confirmation>
+                <send_mail>1</send_mail>
+            </paymentnetwork_pnsofortueberweisung>
+            <!-- just for compatibility -->
+            <pnsofortueberweisung>
+                <active>0</active>
+                <model>Paymentnetwork\Pnsofortueberweisung\Model\Method\Compatibility</model>
+            </pnsofortueberweisung>
+            <sofortrechnung>
+                <active>0</active>
+                <model>Paymentnetwork\Pnsofortueberweisung\Model\Method\Compatibility</model>
+            </sofortrechnung>
+            <pnsofort>
+                <active>0</active>
+                <model>Paymentnetwork\Pnsofortueberweisung\Model\Method\Compatibility</model>
+            </pnsofort>
+            <lastschriftsofort>
+                <active>0</active>
+                <model>Paymentnetwork\Pnsofortueberweisung\Model\Method\Compatibility</model>
+            </lastschriftsofort> 
+            <sofort>
+                <active>0</active>
+                <model>Paymentnetwork\Pnsofortueberweisung\Model\Method\Compatibility</model>
+            </sofort>
+            <sofort_ideal>
+                <active>0</active>
+                <model>Paymentnetwork\Pnsofortueberweisung\Model\Method\Compatibility</model>
+            </sofort_ideal> 
+            <!-- compatibility end -->
+        </payment>
+    </default>
+    
+</config>

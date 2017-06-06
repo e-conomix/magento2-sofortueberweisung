@@ -1,0 +1,81 @@
+Status settings, Statusinstellingen
+Extended settings, Uitgebreide instellingen
+"Please set up a project in the merchant menu of SOFORT AG (please make sure to create a 'SOFORT Gateway Project'). In the next step, you just need your configuration key", "Maak in het klantaccount van SOFORT AG een project aan (let er hierbij op dat u een 'SOFORT Gateway-project' aanmaakt). U hebt in de volgende stap slechts uw configuratiesleutel nodig."
+Project set-up, Aanmaken van een project
+"In order to offer SOFORT Banking, you need a customer account with SOFORT AG. You are not a customer yet? <a href='https://www.sofort.com/payment/users/register/'>Register now!</a>", "Om SOFORT Banking te kunnen aanbieden heeft u een klantaccount bij SOFORT AG nodig. U bent nog geen klant? <a href='https://www.sofort.com/payment/users/register/'>Registreert u zich dan nu!</a>"
+Registration, Registratie
+"Just a few steps are required to use SOFORT Banking:", "Om SOFORT Banking te kunnen gebruiken zijn er enkele stappen nodig:"
+"SOFORT Banking is the direct payment system provided by SOFORT AG. SOFORT Banking allows buyers to make a wire transfer of the respective amount during the order process using their online banking account. You as a merchant will receive a real-time confirmation after the SOFORT Banking transaction has been completed. This enables you to immediately ship goods on stock and digital goods - and the buyer will receive the purchased items faster. Learn more about SOFORT Banking and SOFORT AG at <a href='http://www.sofort.com' target='_blank'>sofort.com</a>", "SOFORT Banking is het direct-overschrijvingssysteem van SOFORT AG. Met SOFORT Banking maken consumenten nog tijdens hun bestelling handig het openstaande bedrag over naar uw online-banking-rekening. U als webwinkelier ontvangt na het afsluiten van de overschrijving met SOFORT Banking een bevestiging in realtime. Zo kunt u goederen uit het magazijn of digitale goederen direct versturen - en ontvangt de consument zijn producten sneller. Meer over SOFORT Banking en SOFORT AG vindt u op <a href='http://www.sofort.com' target='_blank'>sofort.com</a>"
+"Payment system with data protection certified by TÜV Saarland", "Door TÜV Saarland gecertificeerd betaalsysteem met gecertificeerde bescherming persoonsgegevens"
+"No registration required", "Geen registratie nodig"
+"Stock goods/content can be shipped/activated immediately", "Product/content kan indien voorradig DIRECT worden verstuurd/vrijgegeven"
+"Please have your online banking details ready", "Houd uw online-banking gegevens (PIN/TAN) gereed"
+"Buyer protection for payment by SOFORT Banking!", "Bij betaling met SOFORT Banking heeft u koperbescherming!"
+"More information.",  "Meer Informatie."
+Send receipt emails, Bevestigings e-mails versturen
+Customer protection active, Koperbescherming activeren
+SOFORT Banking, SOFORT Banking
+Set-up and configuration, Installatie en configuratie
+Your benefits,Uw voordelen:
+About SOFORT Banking,Over SOFORT Banking
+Only your configuration key will be needed in the next steps.,U heeft voor de volgende stap slechts uw configuratiesleutel nodig.
+Module configuration,Moduleconfiguratie
+Settings,Basisinstellingen
+Activate the module and enter the configuration key. SOFORT Banking will be immediately available in your checkout. Additional settings are not required.,Simpelweg de module activeren en de configuratiesleutel invoeren. SOFORT Banking is dan direct in uw checkout beschikbaar. Overige instellingen zijn niet nodig.
+Activate SOFORT Banking in your shop,Activeer SOFORT Banking in uw webshop
+Use the main website setting,Main website-instelling gebruiken
+Configuration key:,Configuratiesleutel:
+Adjust the SOFORT Banking module properties here. <a onclick='%s'>(Click to open)</a>,Pas hier het gedrag van de SOFORT Banking-module aan <a onclick='%s'>(klik om te openen)</a>.
+Display settings in the checkout,Weergave-instellingen in de checkout
+Sort sequence:,Weergavevolgorde:
+Display in the checkout:,Weergave in de checkout:
+Please bear in mind that to offer buyer protection to your customers you will need a SOFORT Bank account and activate the feature buyer protection in your project settings,Houdt u er rekening mee dat u een SOFORT bankrekening nodig heeft en de kopersbescherming in uw projectinstellingen geactiveerd moet zijn om uw klanten kopersberscherming aan te bieden.
+Show only for specific countries:,Uitsluitend voor bepaalde landen weergeven:
+Reference settings,Instellingen gebruiksdoeleinde
+Reference:,Gebruiksdoeleinde:
+Reference 2:,Gebruiksdoeleinde 2:
+"The following placeholders are allowed:<br/><ul>
+<li>Order number:  {{orderid}}</li>
+<li>Customer name: {{name}}</li>
+<li>Date: {{date}}</li>
+<li>Shop name: {{shopname}}</li>
+<li>Transaction: {{transaction}}</li></ul>","De volgende jokers (place holder) zijn toegestaan:<br/><ul>
+<li>Bestelnummer: {{orderid}}</li>
+<li>Naam klant: {{name}}</li>
+<li>Factuurdatum: {{date}}</li>
+<li>Naam webshop: {{shopname}}</li>
+<li>Transactie: {{transaction}}</li></ul>"
+"Please adjust these settings only if you are familiar with status handling of Magento, as this may have unpredictable effects on your shop and other modules might no longer work properly. Additional information can be found in our manual.",Pas deze instellingen alleen aan wanneer u vertrouwd bent met de statusbehandeling van Magento. Dit kan namelijk onvoorziene gevolgen voor uw webshop tot gevolg hebben. Bovendien kunnen andere modules eventueel niet meer correct functioneren. Meer informatie vindt u in ons handboek.
+Temporary order status:,Tijdelijke bestelstatus:
+Define the status for orders which have not been paid yet.,(Definieer de status voor bestellingen die nog niet betaald zijn.)
+Aborted order status:,Geannuleerde bestelstatus:
+Confirmed order status:,Bevestigde bestelstatus:
+Define the status for orders which have been successfully completed by SOFORT Banking.,(Definieer de status voor bestellingen die door SOFORT Banking succesvol afgesloten zijn.)
+Not create invoice,Geen factuur aanmaken
+(not recommended),(wordt afgeraden)
+Not update status,Geen actualisering van de status uitvoeren
+Order status for full refunds:,Bestelstatus voor complete terugbetalingen:
+Define the status for orders which have been prepared for full refunds in the SOFORT AG merchant menu. Bear in mind that refunds usually have to be carried out manually.,(Definieer de status voor bestellingen die compleet in het aanbiedermenu van SOFORT AG als terugboeking werden gemarkeerd. Houdt u er rekening mee dat terugboekingen over het algemeen daar manueel moeten worden uitgevoerd.
+Order status for payment receipt:,Bestelstatus voor betaling:
+(Define the status of orders for which payment has been received on your SOFORT Bank account. A SOFORT Bank account is required.),(Definieer de status voor bestellingen waarvoor een betaling op uw SOFORT bankrekening wordt vastgesteld. Hiervoor is een SOFORT bankrekening nodig.)
+Order status for losses:,Bestelstatus voor niet voldane betalingen:
+(Define the status of orders for which no payment or a different amount has been received on your SOFORT Bank account. A SOFORT Bank account is required.),(Definieer de status voor bestelling waarvoor geen betaling wordt vastgesteld of een afwijkend bedrag op uw SOFORT bankrekening is binnengekomen. Hiervoor is een SOFORT bankrekening nodig.)
+Internal transaction ID of SOFORT AG: %s (please specify for support requests).,Interne transactie-ID van SOFORT AG:  %s (gelieve aan te geven bij support-aanvragen).
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]","Doorsturing naar SOFORT Banking. Betaling nog niet afgesloten. Transactie-ID: [[transaction_id]]. Tijd [[date]] uur"
+"Payment aborted. Time: %s","Betaling geannuleerd. Tijd: %s uur"
+"SOFORT Banking has been completed successfully - Transaction ID: [[transaction_id]]. Time: [[date]]","SOFORT Banking succesvol afgesloten - transactie-ID: [[transaction_id]]. Tijd [[date]] uur"
+"The payment has not been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","Er kon geen betaling op de SOFORT bankrekening worden vastgesteld. Controleer de betaling a.u.b. Tijd: [[date]] uur"
+"The payment has been received on your SOFORT Bank account. Time: [[date]]","Bedrag is binnengekomen op de SOFORT bankrekening. Tijd: [[date]] uur"
+"An amount differing from the order has been received on your SOFORT Bank account. Please verify the payment. Time: [[date]]","Er werd een van de bestelling afwijkend bedrag op de SOFORT bankrekening vastgesteld. Controleer de betaling a.u.b. Tijd: [[date]] uur"
+"Partial amount will be refunded - [[refunded_amount]]. Time: [[date]]","Deel van het bedrag wordt terugbetaald - [[refunded_amount]]. Tijd: [[date]] uur"
+"Amount will be refunded. Time: [[date]]","Bedrag wordt terugbetaald. Tijd [[date]] uur"
+Select the time of invoicing,Kies het tijdstip voor het opstellen van de factuur:
+It is not recommended to change this setting,(Er wordt afgeraden om deze instelling te veranderen)
+After finishing the payment,Na het afronden van de betaling
+The receipt of the money ( can be only detected with an account with SOFORT Bank),Bij de ontvangst van het bedrag (kan alleen met SOFORT bankrekening worden vastgesteld)
+"If the status shouldn't be updated for this event, please choose as status %s","Wanneer er geen actualisering van de status voor dit event moet worden uitgevoerd, kies dan als status %s"
+Create credit memo automatically,Creditnota automatisch aanmaken
+A credit memo will be created automatically if a transaction was refunded by using the SOFORT panel.,Er wordt automatisch een creditnota aangemaakt wanneer er een transactie in het SOFORT systeem teruggeboekt wordt.
+en,nl
+"Send order confirmation","Bestelbevestiging sturen"
+"Redirection to SOFORT Banking. Transaction not finished. Transaction ID: [[transaction_id]]. Time: [[date]]", "Doorsturing naar SOFORT Banking. Betaling nog niet afgesloten. Transactie-ID: [[transaction_id]]. Tijd [[date]] uur"
